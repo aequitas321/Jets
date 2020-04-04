@@ -1,5 +1,4 @@
 package com.skilldistillery.jets;
 
-public abstract class Jet {
-
+public interface Attack {
 }
