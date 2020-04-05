@@ -5,31 +5,36 @@ public abstract class SpaceShip {
     private double speedInMph;
     private int range;
     private long price;
+    private String type;
 
-//    protected SpaceShip() {
-//    }
-
-//    protected SpaceShip() {
-//    }
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public void fly() {
-    	System.out.println("Taking off from the DeathStar");
-    	
+        System.out.println("Mode: " + this.getModel() + " Speed: " + this.getSpeed() + " Range: " + this.getRange() + " Will need fuel in " + getSpeed()/getRange() + " days.");
+
     }
+
     public void getSpeedInMach() {
-    	                       
+
     }
 
 
-// Constructor
-    public SpaceShip(String model, Double speedInMph, int range, long price) {
-    	this.model = model;
-    	this.price = price;
-    	this.range = range;
-    	this.speedInMph = speedInMph;
-    }
+    // Constructor
 
-//Getters and Setters
+    public SpaceShip(String model, Double speedInMph, int range, long price, String type) {
+        this.model = model;
+        this.price = price;
+        this.range = range;
+        this.speedInMph = speedInMph;
+        this.type = type;
+    }
+    //Getters and Setters
+
+    public String getType() {
+        return type;
+    }
     public String getModel() {
         return model;
     }
@@ -60,12 +65,11 @@ public abstract class SpaceShip {
 
 
     public String toString() {
-        return "SpaceShip{" +
-                "model = '" + model + '\'' +
-                ", speed in MPH = " + speedInMph +
-                ", range in days = " + range +
-                ", price in Credits = " + price +
-                '}';
+        return
+                "Model: " + model + "\n" +
+                "Speed in MPH: " + speedInMph + "\n" +
+                 "Range In Days: " + range + "\n" +
+                 "price in Credits: " + price + "\n";
     }
 
     public void setPrice(long price) {
