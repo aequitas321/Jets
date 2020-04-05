@@ -4,10 +4,7 @@ public class TransportSpaceShips extends SpaceShip implements Haul {
 
 
     public TransportSpaceShips(String model, Double speedInMph, int range, long price){
-        this.setModel(model);
-        this.setPrice(price);
-        this.setSpeed(speedInMph);
-        this.setRange(range);
+       super(model, speedInMph, range, price);
     }
 
 

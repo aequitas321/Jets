@@ -1,7 +1,12 @@
 package com.skilldistillery.jets;
 
 public class SpaceShipImpl extends SpaceShip {
-    @Override
+    public SpaceShipImpl(String model, Double speedInMph, int range, long price) {
+		super(model, speedInMph, range, price);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
     public void fly() {
 
     }

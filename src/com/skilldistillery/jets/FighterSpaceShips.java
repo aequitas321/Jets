@@ -14,11 +14,11 @@ public class FighterSpaceShips extends SpaceShip implements Attack {
     }
 
     public FighterSpaceShips(String model, Double speedInMph, int range, long price){
-
-        this.setModel(model);
-        this.setSpeed(speedInMph);
-        this.setRange(range);
-        this.setPrice(price);
+    	super(model, speedInMph, range, price);
+        
+        
+        
 
     }
 }
+        

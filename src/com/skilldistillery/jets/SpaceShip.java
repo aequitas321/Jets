@@ -6,19 +6,26 @@ public abstract class SpaceShip {
     private int range;
     private long price;
 
-    protected SpaceShip() {
-    }
+//    protected SpaceShip() {
+//    }
 
 //    protected SpaceShip() {
 //    }
 
-    public abstract void fly();
-    public abstract void getSpeedInMach();
+    public void fly() {
+    	
+    }
+    public void getSpeedInMach() {
+    	                       
+    }
 
 
 // Constructor
     public SpaceShip(String model, Double speedInMph, int range, long price) {
-
+    	this.model = model;
+    	this.price = price;
+    	this.range = range;
+    	this.speedInMph = speedInMph;
     }
 
 //Getters and Setters

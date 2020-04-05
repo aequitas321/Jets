@@ -1,0 +1,11 @@
+fighter, TIE Advanced X1, 746.0, 1, 60000
+transport, YT-1300f, 652.0, 60, 100000
+fighter, X-Wing T-65B, 652.0, 7, 150000
+fighter, B-Wing/E2, 621.3, 7, 250000
+fighter, Z-95 Headhunter I3, 714.6, 1, 45000
+transport, Y-4 Military transport, 450.0, 30, 250000
+transport, MRX-BR Pacifier, 745.6, 365, 170000
+fighter, TIE Bomber, 528.2, 2, 150000
+fighter, TIE Phantom, 925.8, 3, 300000
+transport, Grek-class Troop Shuttle, 590.3, 1, 40000
+transport, X-26 StarHaul, 124.3, 7, 400000
