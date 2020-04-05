@@ -13,6 +13,7 @@ public abstract class SpaceShip {
 //    }
 
     public void fly() {
+    	System.out.println("Taking off from the DeathStar");
     	
     }
     public void getSpeedInMach() {
@@ -60,10 +61,10 @@ public abstract class SpaceShip {
 
     public String toString() {
         return "SpaceShip{" +
-                "model='" + model + '\'' +
-                ", speed=" + speedInMph +
-                ", range=" + range +
-                ", price=" + price +
+                "model = '" + model + '\'' +
+                ", speed in MPH = " + speedInMph +
+                ", range in days = " + range +
+                ", price in Credits = " + price +
                 '}';
     }
 

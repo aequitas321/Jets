@@ -3,9 +3,10 @@ package com.skilldistillery.jets;
 public class FighterSpaceShips extends SpaceShip implements Attack {
 
 
-    @Override
+    
     public void fly() {
-        System.out.println();
+    	super.fly();
+        System.out.println(" Attacing the Rebel scum");
     }
 
     @Override

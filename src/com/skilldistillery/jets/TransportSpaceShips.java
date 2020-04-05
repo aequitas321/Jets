@@ -10,7 +10,8 @@ public class TransportSpaceShips extends SpaceShip implements Haul {
 
     @Override
     public void fly() {
-
+    	super.fly();
+    	System.out.println("Loading");
     }
 
     @Override
