@@ -141,6 +141,7 @@ public class DeathStar {
 
 		spaceShips.add(new SpaceShipImpl(model, speed, range, price,"impl"));
 	}
+
 	public void removeSpaceShip(){
 		int i = 1;
 		System.out.println("Which SpaceShip would you like to remove?");
