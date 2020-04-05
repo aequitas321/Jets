@@ -12,7 +12,7 @@ public abstract class SpaceShip {
     }
 
     public void fly() {
-        System.out.println("Mode: " + this.getModel() + " Speed: " + this.getSpeed() + " Range: " + this.getRange() + " Will need fuel in " + getSpeed()/getRange() + " days.");
+        System.out.println("Model: " + this.getModel() + " Speed: " + this.getSpeed() + " Range: " + this.getRange() + " Will need fuel in " + getSpeed()/getRange() + " days.");
 
     }
 
