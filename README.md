@@ -3,7 +3,7 @@
 - The user will be allowed to select from a menu option, execute that option and be returned to the menu.
 - This menu will continue until the user selects Quit from the list of options.
 
-###Topics/Technologies
+### Topics/Technologies
 - Eclipse IDE
 - Loops
 - Try/Catch
